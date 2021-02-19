@@ -1,0 +1,77 @@
+body {
+    background: rgb(235, 235, 235);
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    color: white;
+    font-size: 4em;
+}
+
+p {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+}
+
+.hero {
+    background: linear-gradient(rgba(49, 48, 48, 0.5), rgba(49, 48, 48, 0.5)),url(img/hero.jpg) center;
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+}
+
+.smile-pic {
+    max-width: 70%;
+    padding-bottom: 2em;
+
+}
+
+.site-pic {
+    border-style: solid;
+    border-width: .25em;
+}
+
+.donate {
+    bottom: 15%;
+}
+
+.my-story {
+    background: rgb(235, 235, 235);
+    min-height: 100vh;
+    min-width: 100%;
+    background-size: cover;
+}
+
+.header {
+    background-color: green;
+    clip-path: polygon(0 0, 100% 0, 100% 45%, 0 82%);
+    margin-left: 0px;
+    margin-right:0px;
+    padding-bottom: 5em;
+    text-align: center;
+}
+
+.my-story a {
+    font-size: 1.3em;
+}
+
+.my-story li {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.2em;
+}
+
+.progress {
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+}
+
+h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+@media screen and (min-width: 1400px) {
+    .smile-pic {
+        max-width: 600px;
+    }
+}
